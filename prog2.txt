@@ -1,0 +1,16 @@
+import React, {Component} from 'react';
+import        {Text}      from 'react-native';
+
+
+class Outer extends Component {
+  render(){
+    var test="[The first react program ]"
+    return(
+    <Text>
+    First react.js program {test}
+    </Text>);
+  }
+}
+
+export default Outer;
+

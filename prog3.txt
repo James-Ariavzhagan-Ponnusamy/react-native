@@ -1,0 +1,19 @@
+import React, {Component} from 'react';
+import        {Text}      from 'react-native';
+
+const getFullName = (fn, sn, tn) => {
+  return fn + ":" + sn + ":" + tn;
+}
+
+class Outer extends Component {
+  render(){
+    var test="[The first react program ]"
+    return(
+    <Text>
+    First react.js program {test} and {getFullName('f1','f2','f3')}
+    </Text>);
+  }
+}
+
+export default Outer;
+
